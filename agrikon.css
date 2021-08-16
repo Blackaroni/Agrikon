@@ -1,0 +1,289 @@
+@font-face {
+    font-family: Montserrat;
+    src: url("Montserrat/Montserrat-Regular.ttf");
+}
+.body{
+    width: 100%;
+}
+/* button{
+    top: 684px;
+    left: 362px;
+    width: 206px;
+    height: 71px;
+    background: #F7C35F 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    opacity: 1;
+    font: normal normal normal 18px/22px Montserrat;
+} */
+header .viewport{
+    display: flex;
+    margin-left: 30rem;
+}
+header .viewport .logo {
+    margin-top: 2rem;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    margin-left: 5rem;
+    margin-top: 3rem;
+    font: normal normal normal 16px/20px Montserrat;
+}
+header ul li a{
+    text-decoration: none;
+    color: #255946;
+    margin-left: 5rem;
+}
+header .viewport .top-illustrations{
+    margin-left: 20rem;
+    margin-top: 3rem;
+}
+header .viewport .top-illustrations .search{
+    margin-right: 3rem;
+}
+/* INTRO COLUMN */
+.intro-column {
+    background-image: url("images/base (2)/base.png");
+    height: 900px;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+}
+.intro-column .intro-column-info {
+    margin-left: 25rem;
+    color: #fff;
+    padding-top: 5rem;
+    font: normal normal normal 22px/26px Montserrat;
+}
+.intro-column .intro-column-info h4{
+    margin-top: 4rem;
+    padding-right: 10rem;
+    width: 500px;
+    text-align: left;
+    font: normal normal normal 16px/19px Montserrat;
+    letter-spacing: 2.2px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.intro-column .intro-column-info h5{
+    position: relative;
+    top: -167px;
+    margin-bottom: 5rem;
+    width: 669px;
+    text-align: left;
+    font: normal normal 600 100px/121px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.intro-column .intro-column-info p{
+    top: 585px;
+    left: 362px;
+    width: 567px;
+    height: 53px;
+    text-align: left;
+    font: normal normal medium 18px/31px Montserrat;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+.intro-column button{
+    position: relative;
+    top: -316px;
+    left: 4px;
+    width: 206px;
+    height: 71px;
+    background: #F7C35F 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    opacity: 1;
+    font: normal normal normal 18px/22px Montserrat;
+}
+/* CARD CONTAINER */
+.card-container {
+    bottom: 74px;
+    position: relative;
+    left: 0px;
+    width: 1894px;
+    height: 323px;
+    background: #F7C35F 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.card-container .cards{
+    display: flex;
+    margin-left: 20rem;
+    position: relative;
+    bottom: -8rem;
+}
+.card-container .cards img{
+    top: 1069px;
+    left: 362px;
+    width: 370px;
+    height: 282px;
+    background: transparent url('img/base.png') 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    margin-left: 2rem;
+}
+.card-container .cards p {
+     top: -55px; 
+     left: 55px;
+     width: 330px;
+     height: 82px;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
+     border-radius: 5px;
+     opacity: 1;
+     position: relative;
+     color: #255946;
+     padding-top: 2rem;
+}
+.card-container .cards .card-inscr {
+    text-align: center;
+    font: normal normal normal 22px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #255946;
+    opacity: 1;
+}
+
+/* MAIN */
+.main {
+    display: flex;
+    margin-top: 8rem;
+}
+.main .halflog{
+    flex-basis: 10%;
+}
+.main .main-flex {
+    flex-basis: 50%;
+}
+.main .main-flex img{
+    /* padding-left: 151px; */
+}
+.main .main-content {
+    position: relative;
+    top: 61px;
+    left: -170px;
+    width: 1002px;
+    height: 692px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    padding: 80px;
+}
+.main .main-content h6 {
+    width: 300px;
+    text-align: left;
+    font: normal normal normal 14px/55px Montserrat;
+    letter-spacing: 2.8px;
+    color: #6E7673;
+    padding-bottom: 50px;
+}
+.main .main-content #better{
+    position: relative;
+    top: -98px;
+    left: 0px;
+    width: 500px;
+    height: 57px;
+    text-align: left;
+    font: normal normal normal 46px/55px Montserrat;
+    letter-spacing: 0px;
+    color: #255946;
+}
+.main .main-content #experience {
+    position: relative;
+    top: -120px;
+    left: 0px;
+    width: 580px;
+    height: 32px;
+    text-align: left;
+    font: normal normal normal 26px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #F7C35F;
+}
+.main .main-content #variations{
+    position: relative;
+    top: -142px;
+    left: 0px;
+    width: 442px;
+    height: 19px;
+    text-align: left;
+    font: normal normal normal 16px/26px Montserrat;
+    letter-spacing: 0px;
+    color: #6E7673;
+}
+.main .main-content .main-cartoon{
+    line-break: normal;
+}
+.main .main-content .main-cartoon .cartoon-box{
+    position: relative;
+     top: -76px;
+    /*left: 1012px; */
+    width: 520px;
+    height: 124px;
+    opacity: 1;
+    display: flex;
+}
+.main .main-content .main-cartoon .cartoon-box img{
+    height: 60px;
+    width: 60px;
+}
+.main .main-content .main-cartoon .cartoon-box .farmer{
+    display: flex;
+}
+.main .main-content .main-cartoon .cartoon-box .farmer p{
+    margin-left: 2rem;
+    position: relative;
+    top: -10px;
+    width: 113px;
+    height: 43px;
+    text-align: left;
+    font: normal normal normal 16px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #255946;
+    opacity: 1;
+}
+.main .main-content .main-cartoon .cartoon-box .eco {
+    margin-left: 5rem;
+    display: flex;
+}
+.main .main-content .main-cartoon .cartoon-box .eco p{
+    margin-left: 2rem;
+    position: relative;
+    top: -10px;
+    width: 113px;
+    height: 43px;
+    text-align: left;
+    font: normal normal normal 16px/24px Montserrat;
+    letter-spacing: 0px;
+    color: #255946;
+    opacity: 1;
+}
+.main button {
+    top: 2307px;
+    left: 1012px;
+    width: 206px;
+    height: 71px;
+    background: #F7C35F 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+    border: none;
+    margin-left: 0.75rem;
+}
+/* CLOSED PROJECTS */
+.closed-projects .top-dawg{
+    margin-left: 55rem;
+    margin-top: 10rem;
+}
+.closed-projects .top-dawg h6{
+    position: relative;
+    top: -29px;
+    left: -77px;
+    width: 177px;
+    height: 18px;
+    text-align: center;
+    font: normal normal normal 14px/55px Montserrat;
+    letter-spacing: 2.8px;
+    color: #6E7673;
+}
